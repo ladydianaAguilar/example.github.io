@@ -1,0 +1,27 @@
+/* Estilos para el fondo semi transparente con imagen de fondo */
+main {
+    background-image: url('img/carros.jpg'); /* Cambia la ruta a la imagen */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia los valores según tu preferencia */
+    background-blend-mode: overlay; /* Mezcla el color con la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center center; /* Centra la imagen en el fondo */
+    padding: 50px 0; /* Añade espacio interno al contenido */
+    color: white; /* Cambia el color de texto para que sea legible */
+}
+header {
+    background-image: url('img/viajeros.jpg'); /* Cambia la ruta a la imagen */
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia los valores según tu preferencia */
+    background-blend-mode: overlay; /* Mezcla el color con la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center center; /* Centra la imagen en el fondo */
+    padding: 50px 0; /* Añade espacio interno al contenido */
+    color: white; /* Cambia el color de texto para que sea legible */
+}
+aside {
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia los valores según tu preferencia */
+    background-blend-mode: overlay; /* Mezcla el color con la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center center; /* Centra la imagen en el fondo */
+    padding: 50px 0; /* Añade espacio interno al contenido */
+    color: white; /* Cambia el color de texto para que sea legible */
+}

@@ -1,0 +1,137 @@
+@media (min-width: 768px) {
+    header {
+        background: linear-gradient(rgba(32, 43, 255, 0.5), rgba(51, 147, 188, 0.5)), url('img/viajeros.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .container {
+        background: none;
+    }
+}
+
+.mobile-image {
+    display: none;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .mobile-image {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
+/*VIÑETA*/
+.vineta{
+	margin-left: 10px;
+	font-size: 18px;
+	line-height: 32px;
+	color: #413F3F;
+}
+
+.buen{
+	list-style-image: url(../img/vineta.png);
+	margin-bottom: 10px;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    #image-center {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* Estilos para pantallas más grandes (PC) */
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+    }
+
+    .col-lg-4 {
+        flex: 1;
+    }
+
+    #image-center {
+        display: none;
+    }
+
+
+}
+ /* Azul de Facebook */
+.ico1 {
+    margin: 20px;
+    font-size: 24px;
+    padding: 24px;
+    width: 75px;
+    height: 70px;
+    border-radius: 50%;
+    background: #1877F2;
+}
+/* Rojo de YouTube */
+.ico2 {
+    margin: 20px;
+    font-size: 24px;
+    padding: 24px;
+    width: 75px;
+    height: 70px;
+    border-radius: 50%;
+    background: #eb0d0d;
+}
+/* Azul de LinkedIn */
+.ico3 { 
+    margin: 20px;
+    font-size: 24px;
+    padding: 24px;
+    width: 75px;
+    height: 70px;
+    border-radius: 50%;
+    background: #0e76a8 ;
+}
+/* Verde de WhatsApp */
+.ico4 {
+    margin: 20px;
+    font-size: 24px;
+    padding: 24px;
+    width: 75px;
+    height: 70px;
+    border-radius: 50%;
+    background: #25D366;
+}
+/* Celeste de Twitter */
+.ico5 {
+    margin: 20px;
+    font-size: 24px;
+    padding: 24px;
+    width: 75px;
+    height: 70px;
+    border-radius: 50%;
+    background: #1DA1F2;
+}
+
+.iconos a:nth-child(1) {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.iconos a:nth-child(2) {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
+.iconos a:nth-child(3) {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
+.iconos a:nth-child(4) {
+    text-decoration: none;
+    color: #ffffff; 
+}
+.iconos a:nth-child(5) {
+    text-decoration: none;
+    color: #ffffff; 
+}
+

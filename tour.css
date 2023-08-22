@@ -1,0 +1,15 @@
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .img-adapt {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* Estilos para pantallas más grandes (PC) */
+@media (min-width: 768px) {
+    .img-adapt {
+        width: 500px;
+        height: 500px;
+    }
+}

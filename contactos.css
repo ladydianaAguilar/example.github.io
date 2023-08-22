@@ -1,0 +1,54 @@
+/* Estilos para la barra lateral */
+.fondo-aside {
+    background: rgba(0, 0, 139, 0.0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el contenedor principal */
+.aside {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilos para el mapa de Google */
+iframe {
+    width: 100%;
+    border: none;
+    max-height: 400px;
+}
+
+/* Estilos para el formulario */
+.form {
+    background: rgba(58, 99, 141, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Estilos para los campos de entrada de texto y textarea */
+input[type="text"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    background: rgb(58, 99, 141);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

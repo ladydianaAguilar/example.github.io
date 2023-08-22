@@ -1,0 +1,7 @@
+body {
+    position: relative;
+    background-image: linear-gradient(rgba(221, 238, 255, 0.5), rgba(0, 35, 50, 0.5)),url('img/costa_verde.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

@@ -1,0 +1,29 @@
+.image-container {
+    background-image: url('img/banner3.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar el tamaño de la imagen de fondo */
+    padding: 20px;
+    position: relative; /* Para posicionar los botones relativos a este contenedor */
+}
+.image-container img {
+    max-width: 100%;
+    max-height: 200px; /* Altura máxima de la imagen */
+    padding: 10px; /* Espacio interior */
+}
+.buttons-container {
+    position: absolute; /* Posiciona los botones en relación al contenedor de la imagen */
+    top: 50%; /* Centra verticalmente */
+    left: 0; /* Alinea a la izquierda */
+    transform: translateY(-50%); /* Centra verticalmente precisamente */
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    margin-bottom: 10px; /* Espacio entre los botones */
+}
+#textoCambiante {
+    color: white; /* Color de texto blanco */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Texto centrado */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo del texto */
+    padding: 10px; /* Espacio interior del texto */
+}
